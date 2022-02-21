@@ -1,0 +1,87 @@
+body{
+  margin:0px 0px 0px 0px;
+  text-align: center;
+  /* fallbacks definition, if the internet fails to embed Merriweather, serif will be used  */
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 90px;
+  margin-top: 0px;
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+}
+.text-1{
+  font-size: 30px;
+}
+.top-container{
+  background-color: #CAF0F8;
+  position: relative;
+  /* height: 200px; */
+  /* width: 200px; */
+}
+.pro{
+  text-decoration: underline;
+}
+.top-cloud{
+  position: absolute;
+  right: 400px;
+}
+.bottom-cloud{
+  position: absolute;
+  bottom: 200px;
+}
+/* .middle-container{
+  background-color: lightpink;
+  height: 200px;
+  width: 200px;
+} */
+
+/* .bottom-container{
+  background-color: orange;
+  height: 200px;
+  width: 200px;
+  /* position: relative;
+  bottom: 200px;
+  left: 400px; */
+  /* position: absolute;
+  left: 200px; */
+/* } */
+
+/* .last-container{
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  /* powidth: 2ve;
+
+  height: 200px;left: 200px;
+  bottom: 400px; */
+  /* position: absolute;
+  left: 400px;
+  top: 994.438px; */
+/* }  */
+.profile{
+  background-color: #FFF1CE;
+  padding-bottom: 16px;
+}
+.skills{
+  background-color: #FFBBBB;
+  padding-bottom: 16px;
+}
+.skill_img{
+  width: 150px;
+  height: 150px;
+}
+.skill_div{
+  text-align: left;
+  display: inline-block;
+}
+hr{
+  margin: 0;
+}
+.contact-me{
+  background-color: #90E0EF;
+}
+.bottom-container{
+background-color: #90E0EF;
+padding-bottom: 16px;
+}
