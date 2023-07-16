@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Chau Ly</title>
+</head>
+<body>
+    <h1>Chau Ly's infomation</h1>
+    <ul>
+        <li>
+            <a href="mailto:tchauly1299@gmail.com">Email</a>
+        </li>
+        <li>
+            <a href="tel:0948781652">0948781652</a>
+        </li>
+    </ul>
+    <h3>Email submission</h3>
+    <form action="mailto:chau.ly99@hcmut.edu.vn" method="post" enctype="text/plain">
+        <label>Your email</label>
+        <input type="email" name="yourEmail"><br>
+        <label>Password</label>
+        <input type="password"><br>
+        <label>Your DOB</label>
+        <input type="date" name="yourDOB"><br>
+        <label>Test range</label>
+        <input type="range"><br>
+        <label>Test color</label>
+        <input type="color"><br>
+        <label>Test radio button</label><br> <!--Allow only one pick out of all the radio buttons of the same name-->
+        <input type="radio" name="radiobutton"><br>
+        <input type="radio" name="radiobutton"><br>
+        <input type="radio" name="radiobutton"><br>
+        <label>Message</label>
+        <textarea name="yourMessage" rows="8" cols="30"></textarea>
+        <label>Do you want to subcribe to the email list?</label>
+        <input type="checkbox">
+        <input type="submit" formaction="mailto:tchauly1299@gmail.com"> <!--This overrides form action-->
+    </form>
+</body>
+</html>
